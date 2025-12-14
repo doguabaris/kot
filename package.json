@@ -1,0 +1,37 @@
+{
+	"name": "kot",
+	"version": "0.1.0",
+	"description": "Public-good initiative for verifiable, provenance-aware knowledge continuity, from Earth to Universe.",
+	"homepage": "https://github.com/doguabaris/kot#readme",
+	"bugs": {
+		"url": "https://github.com/doguabaris/kot/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/doguabaris/kot.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Doğu Abaris",
+		"email": "abaris@null.net",
+		"url": "https://doguabaris.bio"
+	},
+	"type": "commonjs",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"devDependencies": {
+		"remark-cli": "12.0.1",
+		"remark-lint-list-item-indent": "^4.0.1",
+		"remark-parse": "^11.0.0",
+		"remark-preset-lint-consistent": "^6.0.1",
+		"remark-preset-lint-recommended": "^7.0.1",
+		"remark-stringify": "^11.0.0"
+	},
+	"scripts": {
+		"lint:md": "remark . --quiet --frail",
+		"format:md": "remark . --output --quiet",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}
